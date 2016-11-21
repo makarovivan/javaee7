@@ -9,7 +9,7 @@ import com.ibm.javaee.sample.beans.SampleService;
 @ApplicationScoped
 public class SampleServiceImpl implements SampleService {
 	
-	private String value;
+	private String value = "NOT SET";
 
 	@Override
 	public String getDummy() {
